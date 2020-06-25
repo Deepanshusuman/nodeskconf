@@ -1,6 +1,4 @@
 # OpenVPN Install for Multiple Users
-[![HitCount](http://hits.dwyl.io/gayanvoice/openvpn-install-for-multiple-users.svg)](http://hits.dwyl.io/gayanvoice/openvpn-install-for-multiple-users)
-
 Share the same client-certificate with everyone. This script pre-enabled the duplicate-cn.
 
 ## Installation
