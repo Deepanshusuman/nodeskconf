@@ -6,8 +6,9 @@
 sudo apt-get update 
 sudo apt-get upgrade -y
 sudo apt-get dist-upgrade -y
-sudo apt-get autoremove
+sudo apt-get autoremove -y
 sudo apt-get autoclean
+curl ifconfig.me
 ```
 
 Share the same client-certificate with everyone. This script pre-enabled the duplicate-cn.
