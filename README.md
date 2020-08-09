@@ -3,7 +3,9 @@
 ## Update
 
 ```
-sudo apt-get update && sudo apt-get upgrade && sudo apt-get dist-upgrade
+sudo apt-get update 
+sudo apt-get upgrade 
+sudo apt-get dist-upgrade
 ```
 
 Share the same client-certificate with everyone. This script pre-enabled the duplicate-cn.
