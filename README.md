@@ -11,6 +11,11 @@ sudo apt-get autoclean
 sudo apt-get install vnstat
 curl ifconfig.me
 ```
+VPN connecting but no internet 
+```
+iptables -t nat -A POSTROUTING -s 10.8.0.0/24 -o eth0 -j MASQUERADE
+```
+
 
 Share the same client-certificate with everyone. This script pre-enabled the duplicate-cn.
 
